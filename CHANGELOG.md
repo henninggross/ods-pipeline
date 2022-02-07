@@ -17,6 +17,7 @@ listed in the changelog.
 - Run gradle in non daemon mode by default and enabling stacktraces ([#386](https://github.com/opendevstack/ods-pipeline/issues/386))
 - Enable setting `GRADLE_OPTS` via task parameters ([#387](https://github.com/opendevstack/ods-pipeline/issues/387))
 - Export `ARTIFACTS_DIR` environment variable to be visible to the gradle build ([#408](https://github.com/opendevstack/ods-pipeline/issues/408))
+- Add notifications via configurable webhook call from `ods-finish` ([#140](https://github.com/opendevstack/ods-pipeline/issues/140))
 
 ### Changed
 
@@ -25,6 +26,7 @@ listed in the changelog.
 - Update gradle version to 7.3.3 to address log4j vulnerability and improved JDK 17 support. ([#395](https://github.com/opendevstack/ods-pipeline/issues/395))
 - Create and use one PVC per repository ([#160](https://github.com/opendevstack/ods-pipeline/issues/160))
 - Leaner NodeJS 16 Typescript image task, removed cypress and its dependencies ([#426](https://github.com/opendevstack/ods-pipeline/issues/426))
+- Update skopeo (from 1.4 to 1.5) and buildah (from 1.22 to 1.23) ([#430](https://github.com/opendevstack/ods-pipeline/issues/430))
 - Upgrade to SonarQube v8.9 LTS ([#424](https://github.com/opendevstack/ods-pipeline/issues/424))
 
 ### Fixed
